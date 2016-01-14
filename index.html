@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/base.css" type="text/css">
+
+  </head>
+  <body>
+    <div>
+      <!-- 左边显示图片 -->
+      <div>
+        <img id="picture" class="picture" src="pic/1.jpg" />
+      </div>
+
+      <div>
+        <button id="startbtn">开始游戏</button>
+        <button id="choosebtn">更改图片</button>
+      </div>
+
+      <!-- 右边拼图 -->
+      <div>
+        <div class="puzzleborder" id="puzzle"></div>
+      </div>
+
+      <!-- 滑动条 -->
+      <div class="slide">
+        简单 <input id="slide" type="range" value="4" max="5" min="3" step="1" /> 困难
+      </div>
+    </div>
+        <script src="scripts/game.js"></script>
+  </body>
+</html>

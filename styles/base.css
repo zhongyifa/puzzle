@@ -1,0 +1,34 @@
+/*图片样式*/
+.picture {
+  width: 360px;
+  height: 360px;
+  position: absolute;
+}
+
+/*拼图框架*/
+.puzzleborder {
+  width: 360px;
+  height: 360px;
+  border: 2px solid #7d5886;
+  margin-left: 508px;
+  margin-top: -2px;
+  position: absolute;
+}
+.slide {
+  margin-left: 580px;
+  margin-top: 400px;
+  position: absolute;
+}
+
+/*开始按钮样式*/
+#startbtn {
+  margin-left: 400px;
+  margin-top: 130px;
+  position: absolute;
+}
+/*选择按钮样式*/
+#choosebtn {
+  margin-left: 400px;
+  margin-top: 160px;
+  position: absolute;
+}
